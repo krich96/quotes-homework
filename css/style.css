@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700|Open+Sans');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  background-color: #EEE0D3;
+  margin: 0;
+}
+
+header {
+  background-color: #B69843;
+  color: white;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 50px;
+}
+
+section {
+  flex: 1;
+  max-width: 30%;
+}
